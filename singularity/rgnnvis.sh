@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task 4
 #SBATCH --time 72:00:00
 #SBATCH --mem-per-gpu 64G
-#SBATCH --output /workspaces/%u/2022-rgnnvis/logs/slurm-%j-run.out
+#SBATCH --output /workspaces/%u/RGNNVIS/logs/slurm-%j-run.out
 #
 
 singularity exec --bind /workspaces/$USER:/workspace \
