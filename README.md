@@ -20,5 +20,5 @@ cd ..
 emacs singularity/rgnnvis.sh  # Configure the paths
 
 # Run training and evaluation
-sbatch /workspaces/$USER/RGNNVIS/singularity/rgnnvis.sh runfiles/w49/rgnnvis_resnet50.py --train --ytvis_test
+sbatch singularity/rgnnvis.sh runfiles/w49/rgnnvis_resnet50.py --train --ytvis_test
 ```
